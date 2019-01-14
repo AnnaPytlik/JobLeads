@@ -74,6 +74,9 @@ body{
 .glyphicon-remove:before {
     content: "\e014";
 }
+.glyphicon-copyright-mark:before {
+    content: "\e194";
+}
 
 .logo__link img{
     background: #e3e3e4;
@@ -159,6 +162,7 @@ body{
     width: 460px;
     float: right;
     color:$gray;
+    z-index:1;
     .popup__content {
         padding: 30px 35px 35px 35px;
     }
@@ -190,6 +194,7 @@ body{
         font-weight: bold;
         padding: 2px 3px 1px 3px;
         vertical-align: super;
+        z-index:0;
     }
 }
 @media (max-width:1119px){
@@ -225,6 +230,29 @@ body{
         width: auto;
         margin-bottom: 20px;
         }
+}
+
+@media (max-width:320px){
+    .box{
+        .bgMobile{
+            padding:0;
+        }
+        .box__content--footer {
+            a{
+                font-size: 16px;
+            }
+            a:hover{
+                font-size: 17px;
+            }
+        }
+    }
+    .popup{
+        position: absolute;
+        margin-bottom:0;
+    }
+    .footer{
+        font-size: 12px;
+    }
 }
 @media only screen 
   and (min-device-width: 768px) 
