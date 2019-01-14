@@ -261,12 +261,12 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .box {
     background: url(img/mood.jpg) no-repeat;
-    background-size: 55%;
-    background-position: right bottom;
+    background-size: auto 265px;
+    background-position: 100% 121px;
   }
   .box .box__content--title {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 4%;
+    min-height: 125px;
   }
   .box .bgMobile {
     display: none;
@@ -274,5 +274,13 @@ body {
   .box .box__content--midlle {
     width: 70%;
     padding-top: 5%;
+  }
+  .box .box_content--middle--txt1 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .box .box_content--middle--txt1 ul {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }

@@ -262,12 +262,12 @@ body{
 
     .box{
         background: url(img/mood.jpg) no-repeat;
-        background-size: 55%;
-        background-position: right bottom;
+        background-size: auto 265px;
+        background-position: 100% 121px;
         
         .box__content--title{
-            padding-top: 30px;
-            padding-bottom: 30px;
+            padding-top: 4%;
+            min-height: 125px;
         }
         .bgMobile{
             display:none;
@@ -275,6 +275,14 @@ body{
         .box__content--midlle{
             width: 70%;
             padding-top: 5%;
+        }
+        .box_content--middle--txt1{
+            margin-top: 25px;
+            margin-bottom: 35px;
+            ul{
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
         }
     }
 
