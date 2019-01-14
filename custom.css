@@ -261,8 +261,8 @@ body {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .box {
     background: url(img/mood.jpg) no-repeat;
-    background-size: auto 265px;
-    background-position: 100% 121px;
+    background-size: auto 280px;
+    background-position: 100% 125px;
   }
   .box .box__content--title {
     padding-top: 4%;
