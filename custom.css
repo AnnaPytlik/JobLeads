@@ -259,7 +259,20 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-  body {
-    background: red;
+  .box {
+    background: url(img/mood.jpg) no-repeat;
+    background-size: 55%;
+    background-position: right bottom;
+  }
+  .box .box__content--title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .box .bgMobile {
+    display: none;
+  }
+  .box .box__content--midlle {
+    width: 70%;
+    padding-top: 5%;
   }
 }

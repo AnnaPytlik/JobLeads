@@ -260,9 +260,23 @@ body{
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-
-    body{
-        background: red;
+    .box{
+        background: url(img/mood.jpg) no-repeat;
+        background-size: 55%;
+        background-position: right bottom;
+        
+        .box__content--title{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .bgMobile{
+            display:none;
+        }
+        .box__content--midlle{
+            width: 70%;
+            padding-top: 5%;
+        }
     }
+
     
   }
